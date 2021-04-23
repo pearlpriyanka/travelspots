@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Box</title>
+</head>
+<style>
+    form{
+        background-color: rgb(236,238,237);
+        width: 300px;
+        height: 280px;
+        text-align:center;
+        margin-left:40%;
+        margin-top:15%;
+        border-style:solid;
+        border-radius: 2%;
+        border-color: black;
+        border-width: 1px;
+        box-shadow: 0px 40px 20px -10px #adadad;
+    }
+
+    h4{
+        color:gray;
+        font-family:Arial, Helvetica, sans-serif;
+        margin:4% 4%;
+        font-size:20px;
+    }
+
+    .label{
+    width:240px;
+    height:35px;
+    border-radius:5%;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(197,199,198);
+    }
+
+  ::placeholder{
+    padding:10% 10%;
+    border-style: hidden;
+}
+p{
+    float: right;
+    margin-top:1%;
+    margin-right:5%;
+    color:rgb(109, 109, 109);
+   
+}
+
+.button{
+    width:250px;
+    height:35px;
+    background-color: rgb(255, 43, 43);
+    color:whitesmoke;
+    margin-bottom: 5%;
+}
+
+</style>
+<body>
+    <form>
+        <h4>Login</h4>
+        <hr>
+        <input type="text" style="margin:8% 5% 0% 5%;" class="label" placeholder="Username" >
+        <br>
+        <br>
+        <input type="password" style=" margin:5% 5% 0% 5%;"class="label" placeholder="Password">
+        <p> forgot password? </p>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="SIGN IN" class="button">
+    </form>
+</body>
+</html>

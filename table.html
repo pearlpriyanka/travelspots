@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    
+    <style>
+        body{
+            text-align: center;
+        }
+
+        table{
+            margin-left:600px;
+            margin-top:50px;
+            
+        }
+      h1{
+          margin-top: 100px;;
+      }
+
+      td{
+        padding:10px;
+      }
+    </style>
+    <script>
+         var myObj = [{name:"Theo",sub1:"58",sub2:"96",sub3:"78"},
+            {name:"Harley",sub1:"60",sub2:"50",sub3:"70"},
+            {name:"Carol",sub1:"89",sub2:"78",sub3:"90"},
+            {name:"Nathan",sub1:"55",sub2:"60",sub3:"40"},
+            {name:"Pearl",sub1:"49",sub2:"88",sub3:"65"},
+            {name:"Juno",sub1:"45",sub2:"50",sub3:"60"},
+            {name:"Bella",sub1:"70",sub2:"89",sub3:"90"},
+            {name:"Rahul",sub1:"78",sub2:"70",sub3:"60"},]
+           
+            document.write("<table border='1px'  style='border-collapse:collapse;'>");
+                    document.write("<tr>");
+                        document.write("<td>");
+                            document.write(" Name ");
+                        document.write("</td>");
+                        document.write("<td>");
+                            document.write(" Economics ");
+                        document.write("</td>");
+                        document.write("<td>");
+                            document.write(" Maths ");
+                        document.write("</td>");
+                        document.write("<td>");
+                            document.write(" Commerce ");
+                        document.write("</td>");
+                       
+                    document.write("</tr>");
+
+                for(var d=0;d<myObj.length;d++){
+                    
+                    document.write("<tr>");
+                            document.write("<td>");
+                                    document.write(myObj[d].name);
+                            document.write("</td>");
+                            document.write("<td>");
+                                    document.write(myObj[d].sub1);
+                            document.write("</td>");
+                            document.write("<td>");
+                                    document.write(myObj[d].sub2);
+                            document.write("</td>");
+                            document.write("<td>");
+                                    document.write(myObj[d].sub3);
+                            document.write("</td>");
+                    document.write("</tr>");
+                }
+    </script>
+</head>
+<body>
+    <h1> Students' Marks Table Using JS</h1>
+</body>
+</html>

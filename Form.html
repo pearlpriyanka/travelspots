@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="text-align: center; background-color: #ccff66">
+<style>
+    h2{color:red;}
+
+    #submitbutton
+    {background-color:orange;
+    padding:1%;
+    border:1px black;
+    border-radius:5px;
+    width:100px;
+    height:50px;}
+</style>
+    
+        <form>
+            <h2>
+               Personal Details
+            </h2>
+            
+            <label> Name:</label>  <input type= "text"/> <br> <br>
+            
+            <label>  Password:</label> <input type= "password"/> <br> <br>
+
+            <label>Email Id: </label>  <input type= "text"/> <br> <br>
+         
+           <label> Gender:</label> 
+           <input type="radio"  value="male" name="gen"> Male
+           <input type="radio" value="female" name="gen"> Female
+            
+          <br> <br>
+
+             <label>Contact# : </label> <input type="number" value="Contact#" /> 
+
+            <h2> Educational Qualifications</h2>
+
+
+            <label>Degree: </label>  <select>
+            <option value="SELECT"> --Select Group-- </option>
+            <option value="BSc"> BSc</option>
+            <option value="BCom"> BCom</option>
+            </select> <br> <br> 
+
+
+            <label> Engineering: </label> <select>
+                <option value="SELECT">-- Select Group--</option>
+                <option value="CSE"> CSE </option>
+                <option value="ECE"> ECE </option>
+                <option value="EIE"> EIE </option>
+                <option value="IT"> IT </option>
+                </select> <br> <br>
+            
+
+
+            <label> Hobbies: </label>
+            <input type="checkbox" name="hobbies" value="Playing Chess">Playing Chess
+            <input type="checkbox" name="hobbies" value="Reading Books">Reading Books
+            <br>
+            
+            
+    
+           <h2>Address</h2>
+              <textarea row="100" cols="20" wrap="true"></textarea> <br> <br>
+
+            
+               <label>  Attach Resume: </label>
+                <input type="file" value="Resume"/>
+            <br> <br>
+            <p>
+            <input id="submitbutton" type="submit">
+            </p>
+            </form>
+    
+</body>
+</html>

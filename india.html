@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS Style Sheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Bootstrap Links-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="gallery.html"><img src="travel1.png" width="60px" height="60px"> </a>
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#nav">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="india.html">India</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="greece.html">Greece </a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sweden.html">Sweden</a></li>
+             <!--Contact Us Form-->
+             <li class="nav-item">
+                 <a class="nav-link" href="contactusform.html"> Contact</a>
+             </li>
+             <!--MODAL-->
+             <li class="nav-item">
+                <button class="btn nav-link" type="button" data-target="#dialog" data-toggle="modal">
+                    Login
+                </button>
+                <div class="modal fade" id="dialog" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title login">Sign In</h1>
+                            <button type="button" class="close" aria-label="Close" data-dismiss="modal">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Username</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                  </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-outline-info login" type="button"> Login</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+             </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid">
+        <h1 class="head"> India</h1>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-4 col-md-12">
+            <img class="img2" src="kerala.jfif">
+            <h2> Kerala</h2>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+            <img class="img2" src="uttarakhand.jfif">
+            <h2> Uttarakhand</h2>
+        </div>
+        
+        
+        <div class="col-lg-4 col-md-12">
+            <img class="img2"  src="Manali.jfif">
+            <h2> Assam</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-12">
+            <img class="img2" src="rajasthan.jfif">
+            <h2> Rajasthan</h2>
+        </div>
+        
+        <div class="col-lg-4 col-md-12">
+            <img class="img2" src="delhi.jfif">
+            <h2>Delhi</h2>
+        </div>
+        
+        <div class="col-lg-4 col-md-12">
+            <img class="img2" src="Mumbai.jfif">
+            <h2>Mumbai </h2>
+        </div>
+    </div>
+
+    
+</body>
+</html>
